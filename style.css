@@ -965,18 +965,12 @@
     padding-top: 0
     }
 
-p {
+body {
     /* Kiểu chữ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;      /* Kích thước vừa phải */
-    font-weight: 400;       /* Độ dày bình thường */
-    color: #333;            /* Màu xám đậm để dịu mắt */
     
     /* Chiều cao và khoảng cách */
     line-height: 1.6;       /* Giúp dòng chữ thoáng, dễ đọc */
-    margin-bottom: 20px;    /* Khoảng cách giữa các đoạn văn */
-    
-    /* Giới hạn chiều cao nếu cần */
-    max-height: 200px;
-    overflow: hidden;       /* Cắt phần chữ thừa nếu quá dài */
+    letter-spacing:3px;
 }
